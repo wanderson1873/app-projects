@@ -1,6 +1,6 @@
 function calcBin(){
-    var visortElement = document.querySelector("div.visor");
-    var pElemente = document.querySelector("div.container div.visor p");
+    var visortElement = document.querySelector("div.container input.dec");
+    var pElemente = document.querySelector("div.container input.dec");
     var inputElement = document.querySelector("input.text");
     var btnElement = document.querySelector("input.btn");
 
