@@ -11,24 +11,23 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: center;
-     align-items: center
+    align-items: center
 }
 
 .container{
     width: 300px;
-    height: 300px;
+    height: 350px;
     background: #fff;
     padding: 0 15px;
 
 }
 
 .visor{
-    
     width: 70%;
     height: 20px;
-    padding: 5px;
     margin: 10px;
     background-color: rgb(224, 185, 54);
     border: 2px solid;
+    text-align: right;
 }
 
