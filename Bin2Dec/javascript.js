@@ -1,20 +1,18 @@
 function msgErro(){
-    var pElement = document.querySelector("div.container p.error");
-    var msg = "Informe apenas 0 1";
-    var txt = document.createTextNode(msg);
-    
-    pElement.appendChild(txt);
+    p.textContent = "Informe apenas 0 1";
 }
 
 function calcBin(number){ 
+    p.textContent = "";
     var bina;
         while(number >= 1){
             number /= 2
             console.log(number);
         }
 }
-var btnElement = document.querySelector("input.btn");
 
+var btnElement = document.querySelector("input.btn");
+var p = document.querySelector("p");
 btnElement.onclick = function(){
     var inputElement = document.querySelector("input.dec");
     var number = inputElement.value;
